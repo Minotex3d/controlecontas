@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Controle de contas</string>
+    <string name="app_add_conta">Adicionar contas</string>
+    <string name="app_add_sobre">Sobre</string>
+    <string name="app_add_pagas">Contas Pagas</string>
+    <string name="app_add_anota">Anotações</string>
+    <string name="add_item_description">Clique para adicionar a lista</string>
+</resources>

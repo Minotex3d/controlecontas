@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#3567EA"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNomeConta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome da Conta"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextDataPagamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNomeConta"
+        android:layout_marginTop="8dp"
+        android:hint="Data de Pagamento"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDataPagamento"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#3567EA"
+        android:text="Adicionar" />
+</RelativeLayout>
